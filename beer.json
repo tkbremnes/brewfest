@@ -1,0 +1,44 @@
+{
+  "40495654-0d6b-49df-af72-6d2ff8eae1ce": {
+    "name": "Wild Isabella",
+    "type": "Sour/wild Ale",
+    "abv": 0.06,
+    "description": "One of our first wild experiences. Ale fermentad by wild yeast and bacteria cocktail. Barrel aged in red wine barrels with Isabella grape.",
+    "serving": "KEG"
+  },
+  "cea6c8bb-5f5e-4920-b11e-ed83658f73a0": {
+    "name": "Wild Cherry",
+    "type": "Sour/wild Ale",
+    "abv": 0.06,
+    "description": "American Wild Ale Red Wine BA with Cherries",
+    "serving": "KEG"
+  },
+  "ce2a4f6c-4029-47c8-b8e3-d2999541acb3": {
+    "name": "Delhi Express",
+    "type": "Saison",
+    "abv": 0.058,
+    "description": "A hybrid of farmhouse ale and American IPA. Powerfull blackcurrant and tropical fruits aroma combined with traditional saison taste and aroma.",
+    "serving": "KEG"
+  },
+  "275818d4-ce7a-4072-8c68-d4b0aa7dbbf8": {
+    "name": "Salty Dog",
+    "type": "Gose",
+    "abv": 0.05,
+    "description": "A Russian Gose brought back from Berlin by Rachel.",
+    "serving": "KEG"
+  },
+  "5bdd478e-ee5c-482e-9f64-fcce377e03a7": {
+    "name": "Red Manic",
+    "type": "Red Ale",
+    "abv": 0.068,
+    "description": "",
+    "serving": "KEG"
+  },
+  "7901fc1e-ff14-4a36-a699-089bee1ee3a5": {
+    "name": "Eclipse",
+    "type": "Imperial Stout",
+    "abv": 0.115,
+    "description": "Pours jet black, bright and with a moka-coloured thick head. Aroma is intense: booze, caramel, smoke, tobacco. also tar,",
+    "serving": "KEG"
+  }
+}
