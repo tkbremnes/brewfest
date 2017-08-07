@@ -1,11 +1,19 @@
 .BeerListItem {
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, .12);
   list-style: none;
   margin: 4px 0;
-  padding: 12px;
+}
+
+.BeerListItem .button-wrapper,
+.BeerListItem .beer-info-wrapper {
+  border: 1px solid rgba(0, 0, 0, .12);
   display: flex;
 }
+.BeerListItem .beer-info-wrapper {
+  padding: 12px;
+  border-bottom: none;
+}
+
 .BeerListItem p {
   margin: 0;
   color: rgba(0, 0, 0, .84);
@@ -35,4 +43,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.BeerListItem .button-wrapper {
+  justify-content: space-around;
+}
+
+.beer-list-button.active {
+  background-color: #FDD835;
+}
+
+.beer-list-button {
+  height: 46px;
+  border: none;
+  flex-grow: 1;
+  background: transparent;
+  padding: 8px;
+  border-right: 1px solid rgba(0, 0, 0, .12);
+}
+.beer-list-button:last-of-type {
+  border-right: 1px solid rgba(0, 0, 0, 0);
 }

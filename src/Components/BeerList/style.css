@@ -1,4 +1,19 @@
-.BeerList {
+.BeerListWrapper {
   padding: 8px;
+}
+
+.BeerList {
+  padding: 0;
   margin: 0;
+}
+.BeerList a {
+  text-decoration: none;
+}
+
+.BreweryHeader {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .12);
+  list-style: none;
+  margin: 4px 0;
+  padding: 12px;
 }

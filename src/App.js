@@ -8,9 +8,21 @@ import {
 
 import BreweryList from "./Components/BreweryList";
 import BeerList from "./Components/BeerList";
+import BeerDetail from "./Components/BeerDetail";
 import BeerStuff from "./beerStuff.js";
 
 window.beerStuff = BeerStuff;
+
+window.store = (data, id) => {
+  window.localStorage.setItem(id, data);
+}
+window.load = (id) => {
+  const data = window.localStorage.getItem(id);
+  if (!data) {
+    return "";
+  }
+  return data;
+}
 
 const App = () => (
   <Router>
@@ -18,20 +30,14 @@ const App = () => (
       <Route exact path="/" component={Home}/>
       <Route exact path="/breweries" component={BreweryList}/>
       <Route exact path="/breweries/:breweryId/" component={BeerList}/>
-      <Route exact path="/breweries/:breweryId/:beerId" component={BeerDetail}/>
+      <Route exact path="/breweries/:breweryId/beer/:beerId" component={BeerDetail}/>
     </div>
   </Router>
 )
 
 const Home = () => (
   <div>
-    <h2>Home</h2>
-  </div>
-)
-
-const BeerDetail = () => (
-  <div>
-    <h2>BeerDetail</h2>
+    <Link to="/breweries">Haandfest</Link>
   </div>
 )
 
